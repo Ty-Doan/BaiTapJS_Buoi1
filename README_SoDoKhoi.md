@@ -2,9 +2,9 @@
 
  Bài tập 1 
 <br> Mô hình 3 khối
-// - input: số ngày làm việc của nhân viên
-// - output: tiền lương tính theo ngày
-// - progress: 
+- input: số ngày làm việc của nhân viên
+- output: tiền lương tính theo ngày
+- progress: 
 //     + tạo biến a lưu số ngày việc
 //     + tạo biến b lưu tiền lương
 //     + b = a*100000
