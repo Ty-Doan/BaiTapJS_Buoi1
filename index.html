@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập JS buổi 1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Bài tập 1 -->
+    <h4 class="text-center">Bài tập 1 : Tính tiền lương nhân viên</h4>
+    <div class="d-flex justify-content-center">
+        <div class="card w-25">
+            <div class="card-header bg-primary text-light font-weight-bold text-center">
+                Tính tiền lương nhân viên
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <p>Số ngày làm việc</p>
+                    <input type="text" class="form-control" id="soNgayLamViec">
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                <button id="btnTinhTienLuong" class="btn btn-primary mb-2">Tính</button>
+                <div class="text-center">
+                    <p>Tiền lương là</p>
+                    <h4 id="tinhTienLuong"> # </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Bài tập 2 -->
+    <h4 class="text-center">Bài tập 2 : Tính giá trị trung bình</h4>
+    <div class="d-flex justify-content-center">
+        <div class="card w-25">
+            <div class="card-header bg-success text-light font-weight-bold text-center">
+                Tính giá trị trung bình
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <p>Number 1: </p>
+                    <input type="number" class="form-control" id="number1">
+                </div>
+                <div class="form-group">
+                    <p>Number 2: </p>
+                    <input type="number" class="form-control" id="number2">
+                </div>
+                <div class="form-group">
+                    <p>Number 3: </p>
+                    <input type="number" class="form-control" id="number3">
+                </div>
+                <div class="form-group">
+                    <p>Number 4: </p>
+                    <input type="number" class="form-control" id="number4">
+                </div>
+                <div class="form-group">
+                    <p>Number 5: </p>
+                    <input type="number" class="form-control" id="number5">
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                <button id="btnTinhTrungBinh" class="btn btn-success mb-2">Tính</button>
+                <div class="text-center">
+                    <p>Trung Bình của 5 số là: </p>
+                    <h4 id="tinhTrungBinh"> # </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Bài tập 3 -->
+    <h4 class="text-center">Bài tập 3 : Quy đổi tiền</h4>
+    <div class="d-flex justify-content-center">
+        <div class="card w-25">
+            <div class="card-header bg-primary text-light font-weight-bold text-center">
+                Quy đổi tiền
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <p>Nhập vào số tiền USD cần đổi</p>
+                    <input type="number" class="form-control" id="tienUSD">
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                <button id="btnDoiTien" class="btn btn-primary mb-2">Quy Đổi</button>
+                <div class="text-center">
+                    <p>Số tiền quy đổi từ USD sang VND là</p>
+                    <h4 id="quyDoi"> # </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Bài tập 4 -->
+    <h4 class="text-center">Bài tập 4 : Tính diện tích, chu vi hình chữ nhật</h4>
+    <div class="d-flex justify-content-center">
+        <div class="card w-25">
+            <div class="card-header bg-warning text-light font-weight-bold text-center">
+                Tính diện tích, chu vi hình chữ nhật
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <p>Nhập chiều dài</p>
+                    <input type="number" class="form-control" id="chieuDai">
+                    <p>Nhập chiều rộng</p>
+                    <input type="number" class="form-control" id="chieuRong">
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                <button id="btnTinhCVS" class="btn btn-warning mb-2">Tính</button>
+                <div class="text-center">
+                    <p>Chu vi là</p>
+                    <h4 id="chuVi"> # </h4>
+                    <p>Diện tích là</p>
+                    <h4 id="dienTich"> # </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Bài tập 5 -->
+    <h4 class="text-center">Bài tập 5 : Tính tổng 2 kí số</h4>
+    <div class="d-flex justify-content-center">
+        <div class="card w-25">
+            <div class="card-header bg-success text-light font-weight-bold text-center">
+                Tính tổng 2 kí số
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <p>Nhập số</p>
+                    <input type="number" class="form-control" id="number">
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                <button id="btnTinhTongKySo" class="btn btn-success mb-2">Tính</button>
+                <div class="text-center">
+                    <p>tổng 2 kí số là</p>
+                    <h4 id="tongKySo"> # </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
