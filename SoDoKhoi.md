@@ -1,5 +1,3 @@
-# BaiTapJS_Buoi1
-
  Bài tập 1 
 <br> Mô hình 3 khối
 - input: số ngày làm việc của nhân viên
